@@ -315,7 +315,7 @@ export class SessionManagerCore extends SessionManager implements OnModuleInit {
   async delete(name: string): Promise<void> {
     this.onlyDefault(name);
     await this.appsService.removeBySession(this, name);
-    this.session = DefaultSessionStatus.REMOVED;
+    this.session = DefaultSessionStatus.STOPPED;
     this.updateSession();
     this.sessionConfig = undefined;
   }
