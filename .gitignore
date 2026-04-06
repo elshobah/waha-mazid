@@ -1,0 +1,75 @@
+tmp/*
+src/core/engines/gows/proto
+.env
+.env.local
+.env*.local
+.envs/*
+*.heapsnapshot
+.yarn
+example.ts
+.*sessions
+sessions
+.secrets
+.minio
+.media
+tokens
+files
+venv
+.wwebjs_auth
+src/test.ts
+src/test.js
+test.js
+.wwebjs_cache
+src/dashboard
+.eslintcache
+__pycache__
+
+# Local Claude Code configuration
+.claude/
+
+# Pre-commit local hooks
+.precommit/
+
+# Build and compiled output
+/dist
+/build
+/node_modules
+.next/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+/coverage
+/.nyc_output
+
+# Cache
+.turbo/
+.cache/
+.eslintcache
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
